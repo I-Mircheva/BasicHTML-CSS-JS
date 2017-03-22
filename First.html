@@ -1,0 +1,156 @@
+ Elementi i atributi Emet(dopylva ni)
+<img src="" alt="" (izpisva kakvo shte e izobrajenieto) /> hr - pravi cherta , no prez html ot kydeto ne trqbva br - nov red name kato slojim i se prashta infoto ot formata meta e informaciq koqto ne se vizualizira kato
+<meta charset="UTF-8"> koeto sa bukvite i eventualno link kym CSS kato
+<link rel="stylesheet" herf="./style.css"> tam se slaga i favikonkata :))) Formatting tags
+<b> Ne se polzva</b>
+<i>Rykopis</i>(em)
+<u>podchertan</u>
+<sup>stepen</sup>
+<sub>dolo</sub>
+<strong></strong> se polzva a ne b za bold, zashtoto dava vajnost na teksta
+<pre></pre> kato se sloji nov red teksta izliza i pred usera na nov red Block el div - Vinagi e hubavo da imame div Wrapper nav (navigation bar) aside footer header Inline span - polzva se samo ot cssa za da se razdelq i formatira teksta lists : Kato se napishe taka se nestvat navytre
+<ol>
+    <li>
+        <ol>
+            <li></li>
+        </ol>
+    </li>
+</ol>
+
+ordered list and unordered list(moje da ima bulleti s dopisvane na type="circle") Definition lists
+<dl>
+    <dt>word
+        <dd>definition</dd>
+    </dt>
+</dl>
+
+Ne se syzdavat saitove s tablici
+<table>
+    <tr>row
+        <td>cell</td>
+    </tr>
+</table>
+--------------------
+<table border="3px solid">
+
+    <colgroup>
+        <col width="50%">
+        <col width="50%">
+    </colgroup>
+
+    <thead>
+        <tr>
+            <td>cell</td>
+            <td>cell</td>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <td>cell</td>
+            <td>Izliza dolo na stranicata makar i da ne e v koda</td>
+        </tr>
+    </tfoot>
+    <tbody>
+        <tr>
+            <td>Cell</td>
+            <td>Cell</td>
+        </tr>
+    </tbody>
+
+    Imame i cellspacing(mejdu kletki) i cellpadding(mejdu tekst i stena na kletka) colspan(vertikal) i rowspan(horizontal) - slivat se redovete i kolonite i zaemat poveche mqsto . FORMS AND FRAMES ako se prashta parola chrez post v body name e imeto na poleto, a value e gotova stoinost predi inputa
+
+    <form name="myForm" method="post" action="#">
+        <!-- trqbva da e path, koito da sochi kyde da se pravqt zaqvkite a ne # -->
+        <input type="text" placeholder="First name" name="FirstName">
+        <br/>
+        <input type="submit" name="Submit">
+
+    </form>
+
+    <textarea name="info" rows="8" cols="40">
+    </textarea>
+    <input type="password" name="pass" />
+    <input type="reset" name="ClearsForm" />
+
+    <input type="button" name="Apply now" />
+    <input type="image" name="click me" />
+    <label for="terms">Accept the terms</label>
+    <input id="terms" type="checkbox" name="fruit" required="req"> Moje da iska da e zadyljitelno popylneno Principno trqbva da e zadyljitelno da ima username i parola
+
+    <input type="submit" name="Submit" />
+    <label for="male">Male</label>
+    <input id="male" type="radio" value="male" name="ruit" checked/>
+    <label for="female">Female</label>
+    <input id="female" type="radio" value="female" name="ruit" /> Trqbva da se grupirat po name butonite inache she moje da gi nacykame vsichkite.
+
+    <select multiple="mul" id="yo" name="trop">
+        <option value="1">Geo</option>
+        <option value="2">Meo</option>
+        <option value="3">Beo</option>
+        //multiple choics
+
+    </select>
+
+
+    <select id="mul" id="yo" name="trop">
+        <option value="1">Geo</option>
+        <option value="2">Meo</option>
+        <option value="3">Beo</option>
+        //only one choics
+
+    </select>
+
+    HIDDEN
+
+    <input type="hidden" name="test" /> FILDSETS... .
+    <fieldset>
+        Razdelq logicheski dvete neshta
+        <legend>
+            User info HERE
+        </legend>
+
+    </fieldset>
+
+    Range and Spinbox. ,, ,, ,,
+    <input type="range" min="0" max="100" name="op" value="50">
+    <input type="number" min="0" max="100" name="op" value="10"> Mojem da si slojim autofocus i napravo na izbrano pole.
+
+    <input type="email" name="mail"> imame tabindex koito pokazva po kyv red s butona TAB da se mestim ot pole na pole v koeto da pishem , , , 15:44
+    <main>Nai vajnite neshta ; Block statiite; Trqbva da imame samo edin i da ne e dyshteren;Podobno na main funkciq:)); </main>
+    <header>Ne ni e main ! Po nego ne se tyrsi v google i podobni.. V nego moje da ni se namira nav-a(glavniq a ne nqkyv
+        <aside> ili neshto vyv footer-a</header>
+    <section>Grupira partakeshipo sravnitelno obshti neshtica </section>
+    <details>
+        <summary>Hop!</summary>
+        Hop?
+    </details>
+    <time> Otnovo pokazva vremeto na tyrseshtimashini ama ne i na choveka, kato vidish koda i mojesh da vidish ot koga e no inache ne !!!</time>
+
+    <mark>Vajnichko</mark>
+
+    <figure>
+        *snimka na skala*
+        <figcaption>
+            Emi to tva otgore e skala
+        </figcaption>
+
+    </figure>
+
+    <video controls>Toz magichen tag ni dava playerche DOBAVQT SE VINAGI CONTROLS imame dva source-a ponqkoga za da moje da predlojim nai mnogo varianti na format na videoto
+    </video>
+
+    <audio>Absolutno syshtata struktura</audio>
+
+    <dialog> moje da se openva i closeva</dialog>
+
+    <meter value="0" min="0" max="56">
+        <progress value="0" max="56">nqma min
+    </meter>
+
+    <output>defines the result of a calculation</output>
+
+    poss
+    <wbr>ibble
+    <wbr>toWrite
+
+    <meta>tiq danni izlizat i v google ...cooool

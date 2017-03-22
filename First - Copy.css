@@ -1,0 +1,245 @@
+box related neshtata ne se nasledqvat i <a>-tata ne nasledqvat vizualizaciq h1,
+h2,
+h3 {
+    color: green;
+    font-weight: bold;
+}
+
+.header a {
+    color: green
+}
+
+#gosho>li {
+    padding-top: 8px
+}
+
+header h1 {
+    (vsichki h1 tagove v headera vzima) font-size: 2.4;
+    font-weight: bold
+}
+
+a {
+    color: green
+}
+
+div p a {
+    font-size: 36px
+}
+
+.curri-things {
+    background: cornflowerblue
+}
+
+.BIG {
+    font-size: 72px
+}
+
+#MY {
+    font-style: italic;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.BIG.curri-things {
+    text-decoration: underline;
+    font-size: 20px
+}
+
+h1,
+.link,
+#top-link {
+    font-weight: bold;
+}
+
+div - hvashta divovete div * - hvashta neshtata v elementite * {
+    padding: 0;
+    margin: 0;
+    /*maha defolt ot brolzera*/
+}
+
+p + a {
+    /*(v diva ima p i a i te sa siblings=> tui neshto hvashta na p-to pyrviq sibling)*/
+    text-transform: uppercase;
+}
+
+div > p {
+    /*(diva si ima deca i sys strelka vzimame preki deca/naslednici i samo te stavat rozovi )*/
+    background-color: hotpink;
+}
+
+a[ href="#"] {
+    font-size: 60px
+}
+
+input[type="password"] {
+    border: 3px dashed blue
+}
+
+
+/*E:nth-child(n)(vzima ot 1 do krai vsichki deca)*/
+
+
+/*E:last-child*/
+
+
+/*E:nth-last-child(n)*/
+
+
+/*E:nth-of-type(n)*/
+
+
+/*E:only-child */
+
+
+/*E:empty */
+
+
+/*E:disabled */
+
+.clasi:not(p) {
+    color: blue;
+}
+
+p~p {
+    background: green;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+kato minava mishkata:))
+/*********SECOND**********/
+
+Mojem da si dobavqme ot google fonts link i da si go polzvame v saita:) a {
+    text-decoration: none;
+    cursor: default;
+    (kak da e kursora vyrhu linkovete)
+    /*cursor:none;pointer*/
+}
+
+p {
+    word-spacing: 2px;
+    /*kolko da e sbito*/
+    line-hight: 50px;
+    width: 7px;
+    /*kolko ti e dylyg reda*/
+    text-shadow: 5px 5px 4px black;
+}
+
+@font-face {
+    font-family: fvdg;
+    src: url('');
+}
+
+a {
+    ko teksta ne se sybira v pole zashtoto e golqm i go podrqzvame;
+    overflow: hidden;
+    white-space: unset;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+
+border radius {
+    box-shadow: 5px -10px 2px aqua;
+}
+
+#MyDiv {
+    border: 10px solid aqua;
+    height: 200px;
+    width: 400px;
+    background: url('../images/pigeon.jpg');
+    background-attachment: scroll;
+    background-position: 20px 50px;
+}
+
+
+/*GRADIENT*/
+
+prelivashtite rabotki
+/* float left*/
+
+opacity: 0.8;
+div {
+    background-color: lightblue;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 120%;
+    height: 120%;
+    opacity: 0.8;
+    border: 1px solid black;
+}
+
+
+/*33333333333333*/
+
+min width i max width
+/*procentno s razmeri na konteineri e nai dobre da se raboti,zashtoto
+ inache pri rabota s px se chupi pri razlichen monitor
+*/
+
+olverflow scroll/auto
+/**/
+
+display none ne zasqga nikoi a visibility:hidden prosto ne se vijda
+/*BOOTSTRAP*/
+
+Cool grid for resizing .container {
+    /*vyv shirinata na diva sa vsichki raboti*/
+    width: 300px;
+    box-sizing: content-box;
+}
+
+.container {
+    box-sizing: border-box;
+}
+
+
+/*default-static-normalno si gi redi*/
+
+
+/*absolute- */
+
+
+/*relative-na o e pozicioniran sprqmo roditelq.na left 0px e kogato opira lqvata stena na roditelq a ne na stranicata*/
+
+
+/*fixed-sedi na edno mqsto dori sled skrolvane*/
+
+z-index-ako iskash nqkoe da ti e otgore
+/*kato linkvame css failove ne trqbva da se povtarqt classovete*/
+
+vrtical-align:super,
+baseline;
+
+/*float left i right : pozicionira si gi nai v lqvo ili nai v desno; demek gi izbutva rabotite ...chistqt se s clear:both*/
+
+kogato slagame floatni elementi v div to toi se schupva
+/*flexbox ,new*/
+
+Flex container Flex item Axes Flex wrap:;
+;
+display:flex(redi divove edin do drug);
+;
+flex-direction:colum(redi gi edin do drug);
+
+/*dope*/
+
+justify-content:center- pozicionira;
+(flex-end nabutva gi):;
+align-content: flex-end;
+(kato justify content ama po drugata os) align-self: samo nego si go pozicionirame sprqmo drugite;
+flex grow:2 stava dva pyti po golqmo ot drugite;
+order:3 otiva na treto mqsto;
+
+/*/s bootstrap e malko izlishen*/
+
+
+/*LESS*/
+
+&-za roditel se otnasq;
+@link-color: #ffffff;
+moje da se polzva toq cvqt mnogo pyti;
+naprimer iskame da sa ni nqkolko elementa edin cvqt i posle kato iskame da go smenqme prosto smenqme var-a;
+Can do maths d lighten and darken colors;
+Funkcii .mixin();
+s parametyr .myClass(@color: blue);

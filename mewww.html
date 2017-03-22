@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+
+    <script type="text/javascript">
+    function makeCat(name, color, age) {
+
+        function mew() {
+            console.log('mew');
+        }
+
+        return {
+            name,
+            color,
+            age,
+            mew,
+            toString: function() {
+                return this.name + ' is ' + this.age + ' years old and is ' + this.color;
+            }
+        };
+
+    }
+
+    let richi = makeCat('richi', 'red', 2),
+
+        george = makeCat('george', 'magenta', 1);
+
+    let manyCats = [
+        richi,
+        george,
+        makeCat('malkoKote', 'brown', 3),
+        makeCat('ginka', 'transperant', NaN)
+
+    ];
+
+    let oldLady = {
+        name: 'Genka',
+        age: '90',
+        pets: manyCats,
+        relatives: [{
+            name: 'Stncho'
+        }]
+
+    };
+
+    for (var i = 0; i < oldLady.pets.length; i++) {
+        console.log(oldLady.pets[i].toString());
+    }
+    </script>
+
+</body>
+
+</html>

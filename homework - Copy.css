@@ -1,0 +1,57 @@
+* {
+    font-style: italic;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#redy {
+    color: red;
+    margin-top: 0.9px;
+}
+
+body {
+    background-color: yellowgreen;
+    border: 3px dashed blue
+}
+
+.circle {
+    float: left;
+    height: 3px;
+    width: 3px;
+    display: inline;
+    border: 3px solid green;
+    border-radius: 100px;
+    fill: green;
+    margin-top: 5px;
+    margin-right: 2px;
+    background-color: green;
+}
+
+td {
+    padding: 8px;
+    vertical-align: top;
+}
+
+table {
+    border: 0.5px;
+    border-color: red;
+    background-color: white
+}
+
+.blqk {
+    color: gray
+}
+
+#porto {
+    color: orange;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+    display: block;
+}
+
+a:hover {
+    color: blue;
+    cursor: help;
+}
